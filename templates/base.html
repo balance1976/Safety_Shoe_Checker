@@ -12,10 +12,10 @@
 }    
 .centered {
     position: absolute;
-    top: 55%;
-    left: 42%;
-    width: 400px;
-    height: 150px;
+    top: 55.5%;
+    left: 36.5%;
+    width: 310px;
+    height: 40px;
 
 }
 </style>
@@ -24,8 +24,8 @@
     <div class="container">
         <img src='{{url_for("static", filename="img/interface.png")}}'> 
         <div class="centered">
-            <form action >
-                <textarea type="text" placeholder="Badge Number" style="position: relative; text-align: center;"></textarea>
+            <form action="" method="POST">
+                <input type="text" placeholder="Badge Number" class="centered" name="barcode" style="position: relative; text-align: center;" autofocus>
             </form>
         </div>
 </div>   
