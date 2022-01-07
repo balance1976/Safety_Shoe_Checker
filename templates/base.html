@@ -21,13 +21,21 @@
 </style>
 </head>
 <body>
-    <div class="container">
-        <img src='{{url_for("static", filename="img/interface.png")}}'> 
-        <div class="centered">
-            <form action="" method="POST">
-                <input type="text" placeholder="Badge Number" class="centered" name="barcode" style="position: relative; text-align: center;" autofocus>
-            </form>
-        </div>
-</div>   
+<div class="container centered"  style="z-index: -2" display="block"> Thank you </div>   
+{% block content %}
+
+{% endblock %}   
+<script>
+    
+</script>
+
 </body>
 </html>
+
+<!-- $("#btn_id").click(function(e){
+    $('#note').fadeIn();
+});
+
+$("#close").click(function(e){
+    $('#note').fadeOut();
+}); -->

@@ -9,9 +9,9 @@ def home():
         print("postie", rf)
         writescan(rf)
         print(request.form)
-        return render_template('base.html')
+        return render_template('flag.html')
     else:
-        return render_template('base.html')
+        return render_template('flag.html')
 
 
 if __name__ == '__main__':
